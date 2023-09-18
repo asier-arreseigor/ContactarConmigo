@@ -1,0 +1,40 @@
+
+
+#animals div{
+  padding: 1rem;
+  background-color: rgba(0,0,0,.15);
+  border: 1px solid rgba(0,0,0,.2);
+}
+#fondo {
+  background-image: url('../Imagenes/fondoo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+#fondocontacto {
+  background-image: url('../Imagenes/lago-nz.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#fondoArriba {
+  background-image: url('../Imagenes/otoño.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 2em; /* Agrega relleno si lo deseas */
+  
+}
+
+#caption {
+  width: 50%;
+  color: #fff;
+  margin: 0 auto; /* Centra horizontalmente */
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5); /* Asigna el color y la transparencia */
+  position: absolute;
+  bottom: 0;
+  left: 25%; /* Centra horizontalmente en relación con el ancho de la página */
+  text-align: center;
+}
